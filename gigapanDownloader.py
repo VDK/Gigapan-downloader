@@ -14,7 +14,7 @@ from urllib.request import urlopen
 if os.name == "nt":
     imagemagick = "C:\\Program Files\\ImageMagick-7.1.1-Q16-HDRI\\magick.exe"
 else:
-    imagemagick = "/usr/bin/montage"
+    imagemagick = "/usr/bin/magick"
 
 # Helper: extract text from DOM
 def getText(nodelist):
